@@ -9,5 +9,8 @@ class Tests(unittest.TestCase):
         self.assertEqual( multiple_of(10,5), True )
         self.assertEqual( multiple_of(11, 5), False )
 
+    def test_solution(self):
+        self.assertEqual( solution(), '233168')
+
 if __name__ == '__main__':
     unittest.main()
